@@ -295,13 +295,16 @@ ul {
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.25;
   background-color: rgba(33, 150, 243, 0);
   padding-left: 16px;
   margin-right: 12px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.subscribe-input-form::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 .subscribe-input-form:hover,
 .subscribe-input-form:focus {
